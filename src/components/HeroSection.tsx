@@ -34,6 +34,7 @@ export default function HeroSection() {
         </div>
         <div className="w-full lg:w-1/2 flex justify-center lg:justify-end mb-8 lg:mb-0">
           <div className="relative w-[40vh] h-[40vh] sm:w-[40vh] sm:h-[40vh] md:w-[40vh] md:h-[40vh] lg:w-[45vh] lg:h-[45vh]">
+           {/*  */}
             <Image
               src="/images/fotoPortafolio5.png"
               alt="Miguel Bonilla"
