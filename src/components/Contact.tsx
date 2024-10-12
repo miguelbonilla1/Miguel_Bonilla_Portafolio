@@ -49,47 +49,47 @@ export default function Contact() {
   return (
     <section id="contact" className=" min-h-screen bg-gradient-to-r from-gray-800 via-gray-900 to-black text-white py-24 px-6 sm:px-8 flex flex-col items-center justify-center">
       <div className="relative z-10 max-w-4xl mx-auto w-full">
-        <h2 className="text-4xl font-bold mb-8 text-center">¡Hablemos sobre tu próximo proyecto!</h2>
+        <h2 className="text-4xl md:text-5xl font-bold mb-8 text-center">Let's talk about your next project!</h2>
         <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
           <div>
-            <label htmlFor="name" className="block text-sm font-medium mb-2">Nombre</label>
+            <label htmlFor="name" className="block text-xl font-medium mb-2">Name</label>
             <input
               id="name"
               type="text"
               {...register('name')}
               className="w-full p-2 bg-gray-700 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-              placeholder="Tu nombre"
+              placeholder="Name"
             />
             {errors.name && <p className="mt-1 text-sm text-red-500">{errors.name.message}</p>}
           </div>
           <div>
-            <label htmlFor="email" className="block text-sm font-medium mb-2">Correo electrónico</label>
+            <label htmlFor="email" className="block text-xl font-medium mb-2">Email</label>
             <input
               id="email"
               type="email"
               {...register('email')}
               className="w-full p-2 bg-gray-700 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-              placeholder="tu@email.com"
+              placeholder="Enter your email"
             />
             {errors.email && <p className="mt-1 text-sm text-red-500">{errors.email.message}</p>}
           </div>
           <div>
-            <label htmlFor="message" className="block text-sm font-medium mb-2">Mensaje</label>
+            <label htmlFor="message" className="block text-xl font-medium mb-2">Message</label>
             <textarea
               id="message"
               {...register('message')}
               rows={4}
               className="w-full p-2 bg-gray-700 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-              placeholder="Tu mensaje aquí..."
+              placeholder="Leave me a message"
             ></textarea>
             {errors.message && <p className="mt-1 text-sm text-red-500">{errors.message.message}</p>}
           </div>
           <button 
             type="submit" 
-            className="w-full py-2 px-4 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-md transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-gray-900"
+            className=" text-xl w-full py-2 px-4 bg-blue-600 hover:bg-blue-700 text-white font-inter rounded-md transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-gray-900"
             disabled={isSubmitting}
           >
-            {isSubmitting ? 'Enviando...' : 'Enviar'}
+            {isSubmitting ? 'Enviando...' : 'Send'}
           </button>
         </form>
       </div>

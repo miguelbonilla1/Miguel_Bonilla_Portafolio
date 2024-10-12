@@ -30,10 +30,10 @@ export default function Projects() {
 
   const projectList: Project[] = [
     {
-      name: 'DarkShapeStudios',
+      name: 'Dark Shape Studios',
       url: 'https://www.darkshapestudios.com/',
       imageUrl: '/images/darkshape.png',
-      description: 'DarkShape Studios is a music production company. The website was developed using React, Tailwind CSS, and Vite.js.',
+      description: 'Dark Shape Studios is a music production company. The website was developed using React, Tailwind CSS, and Vite.js.',
     },
     {
       name: 'Discord Bot',
@@ -47,7 +47,7 @@ export default function Projects() {
   return (
    <section id="projects" className=" z-20 pb-11 pt-5 h-full flex flex-col justify-center items-center bg-gradient-to-r from-gray-800 via-gray-900 to-black text-white">
 
-      <h1 className="text-3xl font-bold text-center py-3 mb-5">Projects</h1>
+      <h1 className="text-5xl font-bold text-center py-3 mb-5">Projects</h1>
       
       <div className=" z-20 pt-5 w-full px-1 lg:max-w-5xl lg:mx-auto">
         {projectList.map((project, index) => (
@@ -65,8 +65,8 @@ export default function Projects() {
               />
             </Link>
             <div className="w-full lg:w-1/2 mt-4 lg:mt-0 lg:pl-10 text-center lg:text-left">
-              <h3 className="font-bold text-lg cursor-pointer hover:opacity-90 hover:underline mb-2">{project.name}</h3>
-              <p className="text-sm mb-2">{project.description}</p>
+              <h3 className="font-bold text-xl cursor-pointer hover:opacity-90 hover:underline mb-2">{project.name}</h3>
+              <p className="text-lg mb-2">{project.description}</p>
               <Link href={project.url} target="_blank" rel="noopener noreferrer" className="text-sm text-gray-400 hover:underline">
                 {project.url}
               </Link>

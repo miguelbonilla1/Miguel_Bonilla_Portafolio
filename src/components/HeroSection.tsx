@@ -11,24 +11,24 @@ export default function HeroSection() {
       <AnimatedBackground />
       <div className="relative z-20 flex flex-col-reverse lg:flex-row items-center justify-center min-h-screen px-4 sm:px-6 md:px-8 lg:px-16 xl:px-24 2xl:px-36 py-12">
         <div className="w-full lg:w-1/2 text-center lg:text-left lg:pr-4 xl:pr-8">
-          <h1 className="text-tertiary text-2xl lg:text-5xl font-bold mt-4 md:mt-8 lg:mt-0">
+          <h1 className="text-tertiary text-5xl lg:text-6xl font-bold mt-4 md:mt-8 lg:mt-0">
             <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-pink-700 text-transparent bg-clip-text">Hey There! </span>
           </h1>
-          <h2 className="text-tertiary text-4xl lg:text-6xl font-bold md:my-2" style={{ whiteSpace: 'nowrap' }}>
+          <h2 className="text-tertiary text-5xl lg:text-6xl font-bold md:my-2" style={{ whiteSpace: 'nowrap' }}>
             <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-pink-700 text-transparent bg-clip-text">I&apos;m Miguel Bonilla</span>
           </h2>
-          <h2 className="text-tertiary text-2xl lg:text-5xl font-bold">
+          <h2 className="text-tertiary text-5xl lg:text-6xl font-bold">
             <span className="bg-gradient-to-r from-yellow-400 via-orange-500 to-purple-600 inline-block text-transparent bg-clip-text  whitespace-nowrap">Full Stack developer</span>
           </h2>
           <div className="flex justify-center lg:justify-start items-center mt-5 lg:ml-2 lg:mt-10">
             <Link href="https://www.linkedin.com/in/miguel-bonilla-4b7438285/" target="_blank" rel="noopener noreferrer" className="text-white transition-transform transform hover:scale-105 mr-6">
-              <FaLinkedin size={45} />
+              <FaLinkedin size={60} />
             </Link>
             <Link href="https://github.com/miguelbonilla1" target="_blank" rel="noopener noreferrer" className="text-white transition-transform transform hover:scale-105 mr-6">
-              <FaGithub size={48} />
+              <FaGithub size={60} />
             </Link>
             <Link href="#contact" className="cursor-pointer text-white transition-transform transform hover:scale-105">
-              <FaEnvelope className="ml-2" size={45} />
+              <FaEnvelope className="ml-2" size={60} />
             </Link>
           </div>
         </div>
