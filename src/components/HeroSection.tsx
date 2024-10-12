@@ -3,12 +3,12 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa'
-// import AnimatedBackground from './AnimatedBackground'
+import AnimatedBackground from './AnimatedBackground'
 
 export default function HeroSection() {
   return (
     <section id="HeroSection" className="relative w-full min-h-screen overflow-hidden bg-gradient-to-r from-gray-800 via-gray-900 to-black">
-      {/* <AnimatedBackground /> */}
+      <AnimatedBackground />
       <div className="relative z-20 flex flex-col-reverse lg:flex-row items-center justify-center min-h-screen px-4 sm:px-6 md:px-8 lg:px-16 xl:px-24 2xl:px-36 py-12">
         <div className="w-full lg:w-1/2 text-center lg:text-left lg:pr-4 xl:pr-8">
           <h1 className="text-tertiary text-2xl lg:text-5xl font-bold mt-4 md:mt-8 lg:mt-0">
