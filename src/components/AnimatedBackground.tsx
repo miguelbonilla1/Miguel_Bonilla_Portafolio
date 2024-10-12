@@ -129,6 +129,8 @@ const AnimatedBackground = () => {
     window.addEventListener('resize', handleResize);
 
     // Cleanup: detener la animación y eliminar el listener de eventos
+
+    //
     return () => {
       cancelAnimationFrame(animationFrameId);
       window.removeEventListener('resize', handleResize);
