@@ -49,7 +49,7 @@ export default function Contact() {
   return (
     <section id="contact" className=" min-h-screen bg-gradient-to-r from-gray-800 via-gray-900 to-black text-white py-24 px-6 sm:px-8 flex flex-col items-center justify-center">
       <div className="relative z-10 max-w-4xl mx-auto w-full">
-        <h2 className="text-4xl md:text-5xl font-bold mb-8 text-center">Let's talk about your next project!</h2>
+        <h2 className="text-4xl md:text-5xl font-bold mb-8 text-center">Let&apos;s talk about your next project!</h2>
         <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
           <div>
             <label htmlFor="name" className="block text-xl font-medium mb-2">Name</label>
