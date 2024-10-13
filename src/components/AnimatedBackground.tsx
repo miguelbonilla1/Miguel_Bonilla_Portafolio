@@ -17,7 +17,7 @@ const AnimatedBackground = () => {
     canvas.height = window.innerHeight;
 
     const particles: Particle[] = [];
-    const particleCount = 100;
+    const particleCount = 70;
     const colors = ['#3498db', '#e74c3c', '#2ecc71', '#f39c12'];
 
     class Particle {
