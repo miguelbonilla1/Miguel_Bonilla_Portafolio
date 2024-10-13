@@ -90,7 +90,7 @@ const AnimatedBackground = () => {
         particles[i].update(canvas);
         particles[i].draw(ctx);
 
-        // Dibujar las líneas entre las partículas cercanas
+        // Dibujar las líneas entre las partículas cercanas//
         for (let j = i + 1; j < particles.length; j++) {
           const dx = particles[i].x - particles[j].x;
           const dy = particles[i].y - particles[j].y;
