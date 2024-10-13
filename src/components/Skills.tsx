@@ -1,6 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHtml5, faCss3Alt, faJsSquare, faReact, faBootstrap } from '@fortawesome/free-brands-svg-icons'
-import { faDatabase } from '@fortawesome/free-solid-svg-icons'
 import { DiNodejs } from "react-icons/di"
 import { SiNestjs, SiTypescript } from "react-icons/si"
 import { BiLogoPostgresql, BiLogoTailwindCss } from "react-icons/bi"
@@ -25,7 +24,7 @@ const frontendSkills: Skill[] = [
 const backendSkills: Skill[] = [
   { name: 'Node.js', icon: <DiNodejs size={80} />, color: '#68A063' },
   { name: 'Nest.js', icon: <SiNestjs size={80} />, color: '#F0304D' },
-  { name: 'Express', icon: <FontAwesomeIcon icon={faDatabase} size="3x" />, color: '#000000' },
+  { name: 'Express', icon: <span style={{ fontSize: '2rem', fontWeight: 'bold' }}>Ex</span>, color: '#FFFF' }, // Texto estilizado para Express
   { name: 'PostgreSQL', icon: <BiLogoPostgresql size={80} />, color: '#479BD8' },
   { name: 'MySQL', icon: <GrMysql size={78} />, color: '#2B5D80' },
 ]
