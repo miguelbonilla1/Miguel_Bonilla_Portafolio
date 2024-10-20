@@ -20,7 +20,7 @@ export default function HeroSection() {
           <h2 className="text-tertiary text-4xl lg:text-6xl font-bold">
             <span className="bg-gradient-to-r from-yellow-400 via-orange-500 to-purple-600 inline-block text-transparent bg-clip-text  whitespace-nowrap">Full Stack developer</span>
           </h2>
-          <div className="flex justify-center lg:justify-start items-center mt-5 lg:ml-2 lg:mt-10">
+          <div className="flex justify-center lg:justify-start items-center py-5 md:py-0 lg:ml-2 lg:mt-10 ">
             <Link href="https://www.linkedin.com/in/miguel-bonilla-4b7438285/" target="_blank" rel="noopener noreferrer" className="text-white transition-transform transform hover:scale-105 mr-6">
               <FaLinkedin size={60} />
             </Link>
@@ -32,9 +32,9 @@ export default function HeroSection() {
             </Link>
           </div>
         </div>
-        <div className="w-full lg:w-1/2 flex justify-center lg:justify-end mb-8 lg:mb-0">
+        <div className="w-full lg:w-1/2 flex justify-center lg:justify-end mb-5">
           <div className="relative w-[40vh] h-[40vh] sm:w-[40vh] sm:h-[40vh] md:w-[40vh] md:h-[40vh] lg:w-[45vh] lg:h-[45vh]">
-           {/*  */}
+          
             <Image
               src="/images/fotoPortafolio5.png"
               alt="Miguel Bonilla"
