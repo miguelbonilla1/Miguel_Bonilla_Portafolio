@@ -10,7 +10,7 @@ config.autoAddCss = false;
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'Your Portfolio',
+  title: 'Miguel Bonilla',
   description: 'A showcase of my work and skills',
 };
 
