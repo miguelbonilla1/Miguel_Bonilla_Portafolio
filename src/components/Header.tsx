@@ -32,7 +32,7 @@ export default function Header() {
         <ScrollLink to="HeroSection" smooth={true} duration={500}>
           <Image
             src="/images/miguel_bonilla_1.png" // Ruta directa a la imagen
-            alt="Miguel Bonilla Logo"
+            alt="Miguel Bonilla"
             width={260} // Ajuste de tamaño del logo
             height={260}
             className="cursor-pointer  transition-transform transform hover:scale-105"
