@@ -54,7 +54,7 @@ export default function Header() {
           ))}
           {/* Botón para descargar el CV */}
           <Link
-            href="/ResumeMiguelBonilla.pdf"
+            href="/ResumeMiguelBonilla-1.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center transition-transform transform hover:scale-105"
@@ -104,7 +104,7 @@ export default function Header() {
               </ScrollLink>
             ))}
             <Link
-              href="/ResumeMiguelBonilla.pdf"
+              href="/ResumeMiguelBonilla-1.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center text-gray-100 hover:bg-gray-600 transition duration-300 px-4 py-2"
