@@ -31,7 +31,7 @@ export default function Projects() {
   const projectList: Project[] = [
     {
       name: 'Dark Shape Studios',
-      url: 'https://www.darkshapestudios.com/',
+      url: 'https://darkshape.onrender.com/',
       imageUrl: '/images/darkshape.png',
       description: 'Dark Shape Studios is a music production company. The website was developed using React, Tailwind CSS, and Vite.js.',
     },
