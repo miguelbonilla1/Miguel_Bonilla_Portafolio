@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHtml5, faCss3Alt, faJsSquare, faReact, faBootstrap } from '@fortawesome/free-brands-svg-icons'
 import { DiNodejs } from "react-icons/di"
-import { SiNestjs, SiTypescript } from "react-icons/si"
+// import { SiNestjs, SiTypescript } from "react-icons/si"
 import { BiLogoPostgresql, BiLogoTailwindCss } from "react-icons/bi"
 import { GrMysql } from "react-icons/gr"
 import { SiPhp } from 'react-icons/si'
