@@ -4,6 +4,7 @@ import { DiNodejs } from "react-icons/di"
 import { SiNestjs, SiTypescript } from "react-icons/si"
 import { BiLogoPostgresql, BiLogoTailwindCss } from "react-icons/bi"
 import { GrMysql } from "react-icons/gr"
+import { SiPhp } from 'react-icons/si'
 
 interface Skill {
   name: string
@@ -18,15 +19,16 @@ const frontendSkills: Skill[] = [
   { name: 'React', icon: <FontAwesomeIcon icon={faReact} size="4x" />, color: '#61DAFB' },
   { name: 'Bootstrap', icon: <FontAwesomeIcon icon={faBootstrap} size="3x" />, color: '#7952B3' },
   { name: 'Tailwind', icon: <BiLogoTailwindCss size={70} />, color: '#0EA5E9' },
-  { name: 'TypeScript', icon: <SiTypescript size={67} />, color: '#0EA5E9' },
+  // { name: 'TypeScript', icon: <SiTypescript size={67} />, color: '#0EA5E9' },
 ]
 
 const backendSkills: Skill[] = [
   { name: 'Node.js', icon: <DiNodejs size={80} />, color: '#68A063' },
-  { name: 'Nest.js', icon: <SiNestjs size={80} />, color: '#F0304D' },
+  // { name: 'Nest.js', icon: <SiNestjs size={80} />, color: '#F0304D' },
   { name: 'Express', icon: <span style={{ fontSize: '2rem', fontWeight: 'bold' }}>Ex</span>, color: '#FFFF' }, // Texto estilizado para Express
   { name: 'PostgreSQL', icon: <BiLogoPostgresql size={80} />, color: '#479BD8' },
   { name: 'MySQL', icon: <GrMysql size={78} />, color: '#2B5D80' },
+  { name: 'PHP', icon: <SiPhp size={90} />, color: '#777BB3' },
 ]
 
 const SkillItem = ({ skill }: { skill: Skill }) => (
