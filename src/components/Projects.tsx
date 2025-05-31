@@ -37,7 +37,7 @@ export default function Projects() {
     },
     {
       name: 'Discord Bot',
-      url: 'https://discord.gg/nRsRmpdU',
+      url: 'https://discord.gg/qThESjBT',
       imageUrl: '/images/dcapp.jpeg',
       description: 'The Discord Bot provides real-time cryptocurrency quotes, using Discord.js, Node.js, and the CoinMarketCap API.',
       gifUrl: '/images/bot-testing.gif',
