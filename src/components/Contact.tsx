@@ -6,9 +6,9 @@ import { zodResolver } from '@hookform/resolvers/zod'
 import { z } from 'zod'
 
 const formSchema = z.object({
-  name: z.string().min(2, { message: 'El nombre debe tener al menos 2 caracteres.' }),
-  email: z.string().email({ message: 'Correo electrónico inválido.' }),
-  message: z.string().min(10, { message: 'El mensaje debe tener al menos 10 caracteres.' }),
+  name: z.string().min(2, { message: 'The name must be at least 2 characters long.' }),
+  email: z.string().email({ message: 'Invalid email address.' }),
+  message: z.string().min(10, { message: 'The message must be at least 10 characters long.' }),
 })
 
 type FormData = z.infer<typeof formSchema>
@@ -39,8 +39,8 @@ export default function Contact() {
         throw new Error('Failed to send email')
       }
     } catch (error) {
-      console.error('Error al enviar el mensaje:', error)
-      alert('Hubo un error al enviar el mensaje. Por favor, intenta de nuevo.')
+      console.error('Error sending the message:', error)
+      alert('There was an error sending the message. Please try again.')
     } finally {
       setIsSubmitting(false)
     }
@@ -89,7 +89,7 @@ export default function Contact() {
             className=" text-xl w-full py-2 px-4 bg-blue-600 hover:bg-blue-700 text-white font-inter rounded-md transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-gray-900"
             disabled={isSubmitting}
           >
-            {isSubmitting ? 'Enviando...' : 'Send'}
+            {isSubmitting ? 'Sending...' : 'Send'}
           </button>
         </form>
       </div>
