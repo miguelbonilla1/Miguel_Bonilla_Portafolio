@@ -28,7 +28,7 @@ const backendSkills: Skill[] = [
   { name: 'Express', icon: <span style={{ fontSize: '2rem', fontWeight: 'bold' }}>Ex</span>, color: '#FFFF' }, // Texto estilizado para Express
   { name: 'PostgreSQL', icon: <BiLogoPostgresql size={80} />, color: '#479BD8' },
   { name: 'MySQL', icon: <GrMysql size={78} />, color: '#2B5D80' },
-  { name: 'PHP', icon: <SiPhp size={90} />, color: '#777BB3' },
+ 
 ]
 
 const SkillItem = ({ skill }: { skill: Skill }) => (

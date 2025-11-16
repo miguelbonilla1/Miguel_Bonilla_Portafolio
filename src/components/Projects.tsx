@@ -63,7 +63,12 @@ export default function Projects() {
       gifUrl: '/images/crypto-demo.gif',
     },
     {
-      name: 'Flow Manager',
+      name: 'N8N Whatsapp assistant',
+      url: '',
+      imageUrl: '/images/taskflow.jpeg',
+      description: 'Coming soon',
+    }, {
+      name: 'Ecommerce',
       url: '',
       imageUrl: '/images/taskflow.jpeg',
       description: 'Coming soon',
