@@ -63,7 +63,7 @@ export default function Projects() {
       gifUrl: '/images/crypto-demo.gif',
     },
     {
-      name: 'N8N Whatsapp assistant',
+      name: 'Whatsapp assistant',
       url: '',
       imageUrl: '/images/taskflow.jpeg',
       description: 'Coming soon',
