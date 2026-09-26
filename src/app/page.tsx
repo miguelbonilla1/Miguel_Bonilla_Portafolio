@@ -1,19 +1,19 @@
-import Header from '@/components/Header'
-import HeroSection from '@/components/HeroSection'
-import Projects from '@/components/Projects'
-import Skills from '@/components/Skills'
-import Contact from '@/components/Contact'
-// import AnimatedBackground from '@/components/AnimatedBackground'
+import Navbar from '@/components/Navbar';
+import Hero from '@/components/Hero';
+import SkillsGrid from '@/components/SkillsGrid';
+import ProjectsSliderSection from '@/components/ProjectsSlider';
+import ContactForm from '@/components/ContactForm';
 
 export default function Home() {
   return (
-    <main>
-     
-      <Header />
-      <HeroSection />
-      <Projects />
-      <Skills />
-      <Contact />
-    </main>
-  )
+    <>
+      <Navbar />
+      <main style={{ overflowX: 'hidden' }}>
+        <Hero />
+        <ProjectsSliderSection />
+        <SkillsGrid />
+        <ContactForm />
+      </main>
+    </>
+  );
 }

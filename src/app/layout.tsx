@@ -1,17 +1,12 @@
-import '@/globals.css';
-import { Inter } from 'next/font/google';
-import { config } from '@fortawesome/fontawesome-svg-core';
-import '@fortawesome/fontawesome-svg-core/styles.css';
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
+import Providers from "@/lib/Providers";
 
+const inter = Inter({ subsets: ["latin"] });
 
-
-config.autoAddCss = false;
-
-const inter = Inter({ subsets: ['latin'] });
-
-export const metadata = {
-  title: 'Miguel Bonilla',
-  description: 'A showcase of my work and skills',
+export const metadata: Metadata = {
+  title: "Miguel Bonilla - Portfolio",
+  description: "Full Stack Developer portfolio of Miguel Bonilla",
 };
 
 export default function RootLayout({
@@ -21,14 +16,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head><meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      </head>
-      <body className={`${inter.className} relative`}>
-        
-        <div className="relative z-10">
-          {children}
-        </div>
-      
+      <body className={inter.className}>
+        <Providers>{children}</Providers>
       </body>
     </html>
   );
