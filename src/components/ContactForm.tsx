@@ -73,6 +73,12 @@ const TextArea = styled.textarea`
   }
 `;
 
+const FieldHint = styled.p`
+  color: #94a3b8;
+  font-size: 0.85rem;
+  line-height: 1.4;
+`;
+
 const SubmitButton = styled.button`
   background: var(--primary);
   color: white;
@@ -159,7 +165,16 @@ export default function ContactForm() {
 
         <InputGroup>
           <Label htmlFor="message">{t.contact.message}</Label>
-          <TextArea id="message" name="message" placeholder={t.contact.messagePlaceholder} required />
+          <TextArea
+            id="message"
+            name="message"
+            placeholder={t.contact.messagePlaceholder}
+            minLength={10}
+            maxLength={5000}
+            aria-describedby="message-hint"
+            required
+          />
+          <FieldHint id="message-hint">{t.contact.messageHint}</FieldHint>
         </InputGroup>
 
         <SubmitButton type="submit" disabled={status === 'sending'}>

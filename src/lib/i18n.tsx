@@ -40,7 +40,7 @@ export const translations = {
       mobileAi: 'Artificial Intelligence',
       tools: 'Tools & Infrastructure',
     },
-    contact: { title: "Let's talk about your next project!", name: 'Name', namePlaceholder: 'Your name', email: 'Email', emailPlaceholder: 'Enter your email', message: 'Message', messagePlaceholder: 'Tell me about your project', send: 'Send', sending: 'Sending…', success: 'Your message was sent successfully.', error: 'The message could not be sent. Please try again.' },
+    contact: { title: "Let's talk about your next project!", name: 'Name', namePlaceholder: 'Your name', email: 'Email', emailPlaceholder: 'Enter your email', message: 'Message', messagePlaceholder: 'Tell me about your project', messageHint: 'Minimum 10 characters.', send: 'Send', sending: 'Sending…', success: 'Your message was sent successfully.', error: 'The message could not be sent. Please try again.' },
     footer: { designed: 'Designed and built by', built: 'Built with', and: 'and' },
   },
   es: {
@@ -72,7 +72,7 @@ export const translations = {
       mobileAi: 'Inteligencia Artificial',
       tools: 'Herramientas e Infraestructura',
     },
-    contact: { title: '¡Hablemos de tu próximo proyecto!', name: 'Nombre', namePlaceholder: 'Tu nombre', email: 'Correo', emailPlaceholder: 'Ingresa tu correo', message: 'Mensaje', messagePlaceholder: 'Cuéntame sobre tu proyecto', send: 'Enviar', sending: 'Enviando…', success: 'Tu mensaje fue enviado correctamente.', error: 'No se pudo enviar el mensaje. Inténtalo nuevamente.' },
+    contact: { title: '¡Hablemos de tu próximo proyecto!', name: 'Nombre', namePlaceholder: 'Tu nombre', email: 'Correo', emailPlaceholder: 'Ingresa tu correo', message: 'Mensaje', messagePlaceholder: 'Cuéntame sobre tu proyecto', messageHint: 'Mínimo 10 caracteres.', send: 'Enviar', sending: 'Enviando…', success: 'Tu mensaje fue enviado correctamente.', error: 'No se pudo enviar el mensaje. Inténtalo nuevamente.' },
     footer: { designed: 'Diseñado y desarrollado por', built: 'Construido con', and: 'y' },
   },
   pt: {
@@ -104,7 +104,7 @@ export const translations = {
       mobileAi: 'Inteligência Artificial',
       tools: 'Ferramentas e Infraestrutura',
     },
-    contact: { title: 'Vamos conversar sobre seu próximo projeto!', name: 'Nome', namePlaceholder: 'Seu nome', email: 'E-mail', emailPlaceholder: 'Digite seu e-mail', message: 'Mensagem', messagePlaceholder: 'Conte-me sobre seu projeto', send: 'Enviar', sending: 'Enviando…', success: 'Sua mensagem foi enviada com sucesso.', error: 'Não foi possível enviar a mensagem. Tente novamente.' },
+    contact: { title: 'Vamos conversar sobre seu próximo projeto!', name: 'Nome', namePlaceholder: 'Seu nome', email: 'E-mail', emailPlaceholder: 'Digite seu e-mail', message: 'Mensagem', messagePlaceholder: 'Conte-me sobre seu projeto', messageHint: 'Mínimo de 10 caracteres.', send: 'Enviar', sending: 'Enviando…', success: 'Sua mensagem foi enviada com sucesso.', error: 'Não foi possível enviar a mensagem. Tente novamente.' },
     footer: { designed: 'Projetado e desenvolvido por', built: 'Criado com', and: 'e' },
   },
 } as const;
